@@ -55,4 +55,13 @@ h2 {
   color: white;
   z-index: 2;
   position: relative;
+}
+
+.both_intro {
+  text-align: center;
+  padding: 10px;
+  opacity: 100%;
+  color: white;
+  z-index: 2;
+  position: relative;
 }/*# sourceMappingURL=home.css.map */

@@ -71,6 +71,7 @@ nav a:visited {
   padding: 16px;
   font-size: 16px;
   border: none;
+  cursor: pointer;
 }
 
 /*container dropdown items*/
