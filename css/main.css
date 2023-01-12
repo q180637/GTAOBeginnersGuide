@@ -27,18 +27,20 @@ nav ul {
 nav li {
   list-style: none;
   width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
 }
 nav img {
-  width: 20%;
+  width: 50%;
   height: auto;
+  padding: 0px 0px 0px 25px;
 }
 nav button {
   text-decoration: none;
   text-align: center;
   display: inline-block;
   width: 100%;
-  padding: 0.5em;
-  padding-top: 0.5em;
   text-align: center;
   color: white;
   grid-row: 1;
@@ -96,4 +98,10 @@ nav a:visited {
 /*dropdown on button rollover*/
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  font-size: 28px;
 }/*# sourceMappingURL=main.css.map */

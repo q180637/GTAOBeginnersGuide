@@ -1,3 +1,11 @@
 body {
   background-color: black;
+}
+
+.main_body_wrapper {
+  background-image: url(../img/gta_online_business_bg.jpg);
+  width: 90%;
+  height: 1750px;
+  margin-left: 5%;
+  opacity: 60%;
 }/*# sourceMappingURL=home.css.map */
