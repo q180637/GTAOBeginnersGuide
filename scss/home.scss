@@ -11,18 +11,22 @@ body{
 }
 
 .bg{
-    opacity: 0.6;
+    opacity: 100%;
     position: absolute;
     left:0;
     right:0;
     top: 0;
     width: 100%;
     height: auto;
+    z-index: 1;
 }
 
 .overview{
     text-align: center;
     padding: 10px;
     opacity: 100%;
-    color:lightblue;
+    color:white;
+    z-index: 2;
+    position: relative;
+    
 }
