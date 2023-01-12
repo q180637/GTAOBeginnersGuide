@@ -2,9 +2,17 @@ body {
   background-color: black;
 }
 
+header {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: 400;
+}
+
 .main_body_wrapper {
-  width: 90%;
-  height: 1080px;
+  max-width: 90%;
+  height: auto;
   margin-left: 5%;
   overflow: hidden;
   position: relative;
@@ -19,9 +27,28 @@ body {
   width: 100%;
   height: auto;
   z-index: 1;
+  filter: brightness(60%);
 }
 
 .overview {
+  text-align: center;
+  padding: 10px;
+  opacity: 100%;
+  color: white;
+  z-index: 2;
+  position: relative;
+}
+
+.ceo_intro {
+  text-align: center;
+  padding: 10px;
+  opacity: 100%;
+  color: white;
+  z-index: 2;
+  position: relative;
+}
+
+.mc_intro {
   text-align: center;
   padding: 10px;
   opacity: 100%;
