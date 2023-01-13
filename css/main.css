@@ -18,6 +18,7 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-top: 1%;
   display: grid;
   grid-template-columns: 5% 20% 20% 20% 20%;
   justify-content: space-evenly;
@@ -33,7 +34,7 @@ nav li {
   margin: 0;
 }
 nav img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 nav button {
@@ -45,17 +46,6 @@ nav button {
   color: white;
   grid-row: 1;
   font-family: "Oswald", sans-serif;
-}
-nav a {
-  text-decoration: none;
-}
-nav a:active {
-  text-decoration: none;
-  color: white;
-}
-nav a:visited {
-  text-decoration: none;
-  color: white;
 }
 
 /*nav dropdown container for positioning*/
@@ -74,6 +64,16 @@ nav a:visited {
   cursor: pointer;
 }
 
+.dropdown_button a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown_button a:active {
+  text-decoration: none;
+  color: white;
+}
+
 /*container dropdown items*/
 .dropdown-content {
   display: none;
@@ -81,7 +81,7 @@ nav a:visited {
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 3;
 }
 
 /*dropdown links*/
@@ -100,6 +100,16 @@ nav a:visited {
 /*dropdown on button rollover*/
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.dropdown-content a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown-content a:visited {
+  text-decoration: none;
+  color: white;
 }
 
 header {

@@ -16,6 +16,7 @@ h2 {
   margin-left: 5%;
   overflow: hidden;
   position: relative;
+  margin-bottom: 2.5%;
 }
 
 .bg {
@@ -27,7 +28,7 @@ h2 {
   width: 100%;
   height: auto;
   z-index: 1;
-  filter: brightness(60%);
+  filter: brightness(30%);
 }
 
 .overview {
