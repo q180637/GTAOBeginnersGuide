@@ -48,6 +48,9 @@ nav{
         grid-row:1;
         font-family: 'Oswald', sans-serif;
     }
+    button:hover{
+        background-color:darken($color: rgb(128, 128, 128), $amount: 10);
+    }
 }
 
 /*nav dropdown container for positioning*/
@@ -64,6 +67,11 @@ nav{
     font-size: 16px;
     border: none;
     cursor:pointer;
+}
+
+.dropdown_button a{
+    text-decoration: none;
+    color: white;
 }
 
 .dropdown_button a:visited{
@@ -111,7 +119,11 @@ nav{
 
 .dropdown-content a:visited{
     text-decoration: none;
-    color: white;
+    color: black;
+}
+
+.dropdown{
+    width:100%;
 }
 
 header{
