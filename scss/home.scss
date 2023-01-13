@@ -4,6 +4,7 @@ body{
 
 header{
     font-weight: bold;
+    margin-bottom: 0.6250em;
 }
 
 h2{
@@ -12,7 +13,7 @@ h2{
 
 .main_body_wrapper{
     max-width: 90%;
-    height: auto;
+    height: 68.75em;
     margin-left: 5%;
     overflow: hidden;
     position: relative;
@@ -33,7 +34,8 @@ h2{
 
 .overview{
     text-align: center;
-    padding: 10px;
+    padding: 0.6250em;
+    padding-top: 3%;
     opacity: 100%;
     color:white;
     z-index: 2;
@@ -41,7 +43,7 @@ h2{
 }
 .ceo_intro{
     text-align: center;
-    padding: 10px;
+    padding: 0.6250em;
     opacity: 100%;
     color:white;
     z-index: 2;
@@ -50,7 +52,7 @@ h2{
 
 .mc_intro{
     text-align: center;
-    padding: 10px;
+    padding: 0.6250em;
     opacity: 100%;
     color:white;
     z-index: 2;
@@ -59,7 +61,7 @@ h2{
 
 .both_intro{
     text-align: center;
-    padding: 10px;
+    padding: 0.6250em;
     opacity: 100%;
     color:white;
     z-index: 2;
