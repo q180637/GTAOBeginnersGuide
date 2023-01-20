@@ -18,8 +18,10 @@ h2 {
   margin-left: 5%;
   overflow: hidden;
   position: relative;
+  margin-bottom: 1%;
   background-image: url(../img/gta_online_business_bg.jpg);
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .content {

@@ -32,8 +32,9 @@ h2{
     overflow: hidden;
     position: relative;
     margin-bottom: 1%;
-    background-image: url(../img/desktop_ceo_bag.jpg);
-    background-size: contain;
+    background-image: url(../img/mobile_ceo_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .title{
