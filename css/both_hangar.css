@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+}
+
+header {
+  font-weight: bold;
+  margin-bottom: 0.625em;
+}
+
+h2 {
+  font-weight: 400;
+  line-height: 1.75em;
+}
+
+#main_body_wrapper {
+  max-width: 90%;
+  height: auto;
+  margin-left: 5%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1%;
+  background-image: url(../img/flight_school_tablet.jpg);
+  background-repeat: space;
+  background-size: cover;
+}
+
+.title {
+  height: inherit;
+  text-align: center;
+  padding: 2em;
+  padding-top: 1%;
+  opacity: 100%;
+  color: white;
+  z-index: 2;
+  position: relative;
+  background: rgba(0, 0, 0, 0.6);
+}
+.title .trade_price_list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 7;
+}
+.title .trade_price_list li {
+  list-style-type: disc;
+  list-style-position: inside;
+}/*# sourceMappingURL=both_hangar.css.map */
