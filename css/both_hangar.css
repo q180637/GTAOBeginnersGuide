@@ -49,11 +49,6 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
-  h2 {
-    font-weight: 400;
-    line-height: 1.5em;
-    font-size: 1.4em;
-  }
   #main_body_wrapper {
     max-width: 100%;
     height: auto;

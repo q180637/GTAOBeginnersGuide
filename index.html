@@ -1,107 +1,184 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta author="Ben Richardson">
-                <meta name="description" content="An intrdocution to the purpose of businesses in Grand Theft Auto Online">
-                <title>Grand Theft Auto Online Business Beginners Guide | Introduction</title>
-                <link href="css/main.css" rel="stylesheet">
-                <link href="css/home.css" rel="stylesheet">
-                <link rel="preconnect" href="https://fonts.googleapis.com">
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-                <link rel="icon" href="img/Grand_Theft_Auto_Online_Logo.svg.png" title="Grand Theft Auto Online favicon" alt="Grand Theft Auto Online favicon">
-        </head>
-        <body>
-           <nav>
-                <ul>
-                    <li>
-                        <a href="index.html"><img src="img/Grand_Theft_Auto_Online_Logo.svg.png" alt="Grand Theft Auto Online Logo"></a>
-                    </li>
-                    <li>
-                        <button class="dropdown_button">
-                            <a href ="index.html">Home</a>
-                        </button>
-                    </li>
-                    <li>
-                        <div class="dropdown">
-                            <button class="dropdown_button">CEO Exclusive Businesses</button>
-                            <div class="dropdown-content">
-                                <a href="ceo_special_cargo.html">Special Cargo</a>
-                                <a href="ceo_vehicle_cargo.html">Vehicle Cargo</a>
-                            </div>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Ben Richardson">
+    <meta name="description" content="An intrdocution to the purpose of businesses in Grand Theft Auto Online">
+    <title>Grand Theft Auto Online Business Beginners Guide | Introduction</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="img/Grand_Theft_Auto_Online_Logo.svg.png" title="Grand Theft Auto Online favicon"
+        alt="Grand Theft Auto Online favicon">
+    <script src="js/burger_menu.js"></script>
+</head>
+
+<body>
+    <nav id="desktop">
+            <ul>
+                <li>
+                    <a href="index.html"><img src="img/Grand_Theft_Auto_Online_Logo.svg.png"
+                            alt="Grand Theft Auto Online Logo"></a>
+                </li>
+                <li>
+                    <button class="dropdown_button">
+                        <a href="index.html">Home</a>
+                    </button>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropdown_button">CEO Exclusive Businesses</button>
+                        <div class="dropdown-content">
+                            <a href="ceo_special_cargo.html">Special Cargo</a>
+                            <a href="ceo_vehicle_cargo.html">Vehicle Cargo</a>
                         </div>
-                    </li>
-                    <li>
-                        <div class="dropdown">
-                            <button class="dropdown_button">MC Exclusive Businesses</button>
-                            <div class="dropdown-content">
-                                <a href="mc_doc_forgery.html">Document Forgery</a>
-                                <a href="mc_weed_farm.html">Weed Farm</a>
-                                <a href="mc_cash_factory.html">Counterfeit Cash Factory</a>
-                                <a href="mc_meth.html">Meth Lab</a>
-                                <a href="mc_coke.html">Cocaine Lockup</a>
-                            </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropdown_button">MC Exclusive Businesses</button>
+                        <div class="dropdown-content">
+                            <a href="mc_doc_forgery.html">Document Forgery</a>
+                            <a href="mc_weed_farm.html">Weed Farm</a>
+                            <a href="mc_cash_factory.html">Counterfeit Cash Factory</a>
+                            <a href="mc_meth.html">Meth Lab</a>
+                            <a href="mc_coke.html">Cocaine Lockup</a>
                         </div>
-                    </li>
-                    <li>
-                        <div class="dropdown">
-                            <button class="dropdown_button">Non Exclusive Businesses</button>
-                            <div class="dropdown-content">
-                                <a href="both_bunker.html">Gunrunning Bunker</a>
-                                <a href="both_hangar.html">Air Freight Cargo</a>
-                                <a href="both_nightclub.html">Nightclub</a>
-                                <a href="both_auto_shop.html">Auto Shop</a>
-                                <a href="both_agency.html">Agency</a>
-                                <a href="both_acid_lab.html">Acid Lab</a>
-                            </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropdown_button">Non Exclusive Businesses</button>
+                        <div class="dropdown-content">
+                            <a href="both_bunker.html">Gunrunning Bunker</a>
+                            <a href="both_hangar.html">Air Freight Cargo</a>
+                            <a href="both_nightclub.html">Nightclub</a>
+                            <a href="both_auto_shop.html">Auto Shop</a>
+                            <a href="both_agency.html">Agency</a>
+                            <a href="both_acid_lab.html">Acid Lab</a>
                         </div>
-                    </li>
-                </ul>
-           </nav>
-           <header>
-            Introduction to the world of Grand Theft Auto Online businesses
-           </header>
-           <div id="main_body_wrapper">
-                <!-- <img class="bg" src="img/gta_online_business_bg.jpg" alt="Background image for the home page"> -->
-                <div class="content">
-                    <div class="overview">
-                        <h1>
-                            General Overview
-                        </h1>
-                        <h2>
-                            Within Grand Theft Auto Online a player will mostly progress through earning the in game currency known as GTA$. This can be achieved through making use of a variety of businesses which can be categorised in two ways. Firstly is whether a business is active or passive. An active business refers to one where the player has to actively partake in a gameplay loop of collecting and then selling products in order to profit from it. Meanwhile passive businesses will transform supplies into product over a period of time and will usually feature a series of upgrades to improve their efficiency. Furthermore, most businesses require the player to be registered as either a Securoserv CEO or an MC President in order for them to be able to make profits. Some businesses are exclusive to one or the other; however, most of the newer businesses added in recent updates can be done as either.
-                            <br><br>
-                            Please note that all earnings calculations provided on this website do not factor in Social Club bonuses or the High Demand Bonus from selling in a public lobby.
-                        </h2>
                     </div>
-                    <div class="ceo_intro">
-                        <h1>
-                            CEO Businesses
-                        </h1>
-                        <h2>
-                            In order to utilise the 2 businesses limited to registering as a SecuroServ CEO the player must first purchase an executive office from the Dynasty 8 Executive website accessible from their phone or any laptop. With ownership of one of these offices which range in price from GTA$1,000,000 to GTA$4,000,000 the player can then register as a CEO from the Securoserv section of their interaction menu. As a CEO the player can then access the terminal located in their executive office and begin trading illicit goods or exporting vehicles on the SecuroServ network.
-                        </h2>
+                </li>
+            </ul>
+        </nav>
+        <nav class="mobile">
+            <button class= "logo" onclick="burger_flyout()"><img src="img/Grand_Theft_Auto_Online_Logo.svg.png" alt="Grand Theft Auto Online Logo" ></button>
+            <header>
+                Introduction to the world of Grand Theft Auto Online businesses
+            </header>
+            <ul id="mobile_links">
+                <li>
+                    <button class="dropdown_button">
+                        <a href="index.html">Home</a>
+                    </button>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropdown_button">CEO Exclusive Businesses</button>
+                        <div class="dropdown-content">
+                            <a href="ceo_special_cargo.html">Special Cargo</a>
+                            <a href="ceo_vehicle_cargo.html">Vehicle Cargo</a>
+                        </div>
                     </div>
-                    <div class="mc_intro">
-                        <h1>
-                            MC Businesses
-                        </h1>
-                        <h2>
-                            Similar to registering as a CEO, to become a Motorcycle Club President the player must first purchase a property. In this case it is the Biker Clubhouse which have prices starting at GTA$200,000 and ending at GTA$495,000. Upon purchase the player can then register as an MC President under the Motorcycle Club section of the interaction menu. As an MC President they can then use the laptop in their clubhouse to access the secure Open Road website and begin buying the various businesses of which there are 5 that can be managed.
-                        </h2>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropdown_button">MC Exclusive Businesses</button>
+                        <div class="dropdown-content">
+                            <a href="mc_doc_forgery.html">Document Forgery</a>
+                            <a href="mc_weed_farm.html">Weed Farm</a>
+                            <a href="mc_cash_factory.html">Counterfeit Cash Factory</a>
+                            <a href="mc_meth.html">Meth Lab</a>
+                            <a href="mc_coke.html">Cocaine Lockup</a>
+                        </div>
                     </div>
-                    <div class="both_intro">
-                        <h1>
-                            Non Exclusive Businesses
-                        </h1>
-                        <h2>
-                            Grand Theft Auto Online also features a number of businesses that can be run as either a SecuroServ CEO or an MC President. Additionally, these businesses can also be run as a SecuroServ VIP which only requires the player to have GTA$50,000 in their account but can only be used for 4 hours at a time. Such businesses include but are not limited to the Gunrunning Bunker, the Nightclub and the Acid Lab added in the latest update Los Santos Drug Wars.
-                        </h2>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropdown_button">Non Exclusive Businesses</button>
+                        <div class="dropdown-content">
+                            <a href="both_bunker.html">Gunrunning Bunker</a>
+                            <a href="both_hangar.html">Air Freight Cargo</a>
+                            <a href="both_nightclub.html">Nightclub</a>
+                            <a href="both_auto_shop.html">Auto Shop</a>
+                            <a href="both_agency.html">Agency</a>
+                            <a href="both_acid_lab.html">Acid Lab</a>
+                        </div>
                     </div>
-                </div>
-           </div>
-        </body>
-    </html>
+                </li>
+            </ul>
+            
+        </nav>
+    
+    <div id="main_body_wrapper">
+        <!-- <img class="bg" src="img/gta_online_business_bg.jpg" alt="Background image for the home page"> -->
+        <div class="content">
+            <div class="overview">
+                <h1>
+                    General Overview
+                </h1>
+                <h2>
+                    Within Grand Theft Auto Online a player will mostly progress through earning the in game currency
+                    known as GTA$. This can be achieved through making use of a variety of businesses which can be
+                    categorised in two ways. Firstly is whether a business is active or passive. An active business
+                    refers to one where the player has to actively partake in a gameplay loop of collecting and then
+                    selling products in order to profit from it. Meanwhile passive businesses will transform supplies
+                    into product over a period of time and will usually feature a series of upgrades to improve their
+                    efficiency. Furthermore, most businesses require the player to be registered as either a Securoserv
+                    CEO or an MC President in order for them to be able to make profits. Some businesses are exclusive
+                    to one or the other; however, most of the newer businesses added in recent updates can be done as
+                    either.
+                    <br><br>
+                    Please note that all earnings calculations provided across this guide do not factor in Social Club
+                    bonuses or the High Demand Bonus from selling in a public lobby.
+                </h2>
+            </div>
+            <div class="ceo_intro">
+                <h1>
+                    CEO Businesses
+                </h1>
+                <h2>
+                    In order to utilise the 2 businesses limited to registering as a SecuroServ CEO the player must
+                    first purchase an executive office from the Dynasty 8 Executive website accessible from their phone
+                    or any laptop. With ownership of one of these offices which range in price from GTA$1,000,000 to
+                    GTA$4,000,000 the player can then register as a CEO from the Securoserv section of their interaction
+                    menu. As a CEO the player can then access the terminal located in their executive office and begin
+                    trading illicit goods or exporting vehicles on the SecuroServ network.
+                </h2>
+            </div>
+            <div class="mc_intro">
+                <h1>
+                    MC Businesses
+                </h1>
+                <h2>
+                    Similar to registering as a CEO, to become a Motorcycle Club President the player must first
+                    purchase a property. In this case it is the Biker Clubhouse which have prices starting at
+                    GTA$200,000 and ending at GTA$495,000. Upon purchase the player can then register as an MC President
+                    under the Motorcycle Club section of the interaction menu. As an MC President they can then use the
+                    laptop in their clubhouse to access the secure Open Road website and begin buying the various
+                    businesses of which there are 5 that can be managed.
+                </h2>
+            </div>
+            <div class="both_intro">
+                <h1>
+                    Non Exclusive Businesses
+                </h1>
+                <h2>
+                    Grand Theft Auto Online also features a number of businesses that can be run as either a SecuroServ
+                    CEO or an MC President. Additionally, these businesses can also be run as a SecuroServ VIP which
+                    only requires the player to have GTA$50,000 in their account but can only be used for 4 hours at a
+                    time. Such businesses include but are not limited to the Gunrunning Bunker, the Nightclub and the
+                    Acid Lab added in the latest update Los Santos Drug Wars.
+                </h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
