@@ -33,4 +33,30 @@ h2 {
   z-index: 2;
   position: relative;
   background: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 768px) {
+  #main_body_wrapper {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1%;
+    margin: 0;
+    background-image: url(../img/special_cargo_mobile.jpg);
+    background-repeat: unset;
+    background-size: cover;
+    background-position: center;
+  }
+  .title {
+    height: inherit;
+    text-align: center;
+    padding: 1em;
+    padding-top: 1%;
+    opacity: 100%;
+    color: white;
+    z-index: 2;
+    position: relative;
+    background: rgba(0, 0, 0, 0.6);
+  }
 }/*# sourceMappingURL=ceo_special_cargo.css.map */

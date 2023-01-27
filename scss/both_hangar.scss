@@ -60,7 +60,8 @@ h2{
         margin: 0;
         background-image: url(../img/hangar_mobile.jpg);
         background-repeat:unset;
-        background-size: contain;
+        background-size: cover;
+        background-position: center;
     }
     
     .title{

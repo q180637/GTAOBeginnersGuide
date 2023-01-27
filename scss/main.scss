@@ -157,6 +157,7 @@ body {
     .mobile {
         display: grid;
         grid-template-columns: 25% 75%;
+        justify-content: center;
 
         .logo {
             display: block;
@@ -167,17 +168,19 @@ body {
             cursor: pointer;
             margin: 0;
             padding: 0;
+            grid-column: 1;
         }
 
         .logo:focus {
             display: block;
-            width: 25%;
+            width: 100%;
             height: auto;
             border: none;
             background: none;
             cursor: pointer;
             margin: 0;
             padding: 0;
+            grid-column: 1;
         }
 
         #mobile_links {
@@ -315,6 +318,7 @@ body {
         text-align: center;
         padding: 10px;
         font-size: 1.25em;
+        grid-column: 2;
     }
 
     h1 {
