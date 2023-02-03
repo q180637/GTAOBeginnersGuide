@@ -72,10 +72,32 @@ h2 {
     position: relative;
     background: rgba(0, 0, 0, 0.6);
   }
-  .title .show_prices {
-    display: block;
+  .title .test {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-column: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
   }
-  .title #trade_price_list {
+  .title .test .show_prices {
+    text-align: center;
+    background-color: black;
+    border: none;
+    border-radius: 1em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+  .title .test .show_prices #button_text {
+    padding: 0.1em;
+  }
+  .title .test #trade_price_list {
     display: none;
+  }
+  .title .test #trade_price_list li {
+    list-style-type: disc;
+    list-style-position: inside;
   }
 }/*# sourceMappingURL=both_hangar.css.map */
