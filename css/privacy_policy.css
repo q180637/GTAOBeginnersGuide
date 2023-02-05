@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+}
+
+header {
+  font-weight: bold;
+  margin-bottom: 0.625em;
+}
+
+h2 {
+  font-weight: 400;
+  line-height: 1.75em;
+}
+
+#main_body_wrapper {
+  max-width: 90%;
+  height: auto;
+  margin-left: 5%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1%;
+}
+
+.content {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.overview {
+  text-align: center;
+  padding: 0.625em;
+  padding-top: 3%;
+  opacity: 100%;
+  color: white;
+  z-index: 2;
+  position: relative;
+}
+
+.ceo_intro {
+  text-align: center;
+  padding: 0.625em;
+  opacity: 100%;
+  color: white;
+  z-index: 2;
+  position: relative;
+}
+
+.mc_intro {
+  text-align: center;
+  padding: 0.625em;
+  opacity: 100%;
+  color: white;
+  z-index: 2;
+  position: relative;
+}
+
+.both_intro {
+  text-align: center;
+  padding: 0.625em;
+  opacity: 100%;
+  color: white;
+  z-index: 2;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  #main_body_wrapper {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1%;
+    margin: 0;
+  }
+  .title {
+    height: inherit;
+    text-align: center;
+    padding: 1em;
+    padding-top: 1%;
+    opacity: 100%;
+    color: white;
+    z-index: 2;
+    position: relative;
+    background: rgba(0, 0, 0, 0.6);
+  }
+}/*# sourceMappingURL=privacy_policy.css.map */
