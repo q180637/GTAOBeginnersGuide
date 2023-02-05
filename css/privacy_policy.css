@@ -1,6 +1,12 @@
 body {
   background-color: black;
 }
+body nav ul li div {
+  text-align: center;
+}
+body nav ul li div a {
+  text-align: center;
+}
 
 header {
   font-weight: bold;
