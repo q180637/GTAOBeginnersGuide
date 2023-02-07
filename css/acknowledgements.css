@@ -26,6 +26,7 @@ h2 {
 }
 #main_body_wrapper .content {
   display: grid;
+  grid-template-columns: 100%;
   grid-template-rows: repeat(3, auto);
   row-gap: auto;
 }
@@ -38,7 +39,7 @@ h2 {
 }
 #main_body_wrapper .content .acknowledgements .acknowledgements_list {
   display: grid;
-  grid-template-columns: 48% 48%;
+  grid-template-columns: 32.6% 65.3%;
   grid-template-rows: auto auto auto auto;
   -moz-column-gap: 2%;
        column-gap: 2%;
