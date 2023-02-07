@@ -1,0 +1,97 @@
+body {
+  background-color: black;
+}
+
+header {
+  font-weight: bold;
+  margin-bottom: 0.625em;
+}
+
+h2 {
+  font-weight: 400;
+  line-height: 1.75em;
+}
+
+#main_body_wrapper {
+  max-width: 90%;
+  height: auto;
+  margin-left: 5%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1%;
+}
+#main_body_wrapper a {
+  text-decoration: underline;
+  color: white;
+}
+#main_body_wrapper .content {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  row-gap: auto;
+}
+#main_body_wrapper .content h1 {
+  text-align: center;
+  grid-row: 1;
+}
+#main_body_wrapper .content .acknowledgements {
+  grid-row: 2;
+}
+#main_body_wrapper .content .acknowledgements .acknowledgements_list {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-template-rows: auto auto auto auto;
+  -moz-column-gap: 2%;
+       column-gap: 2%;
+}
+#main_body_wrapper .content .acknowledgements .acknowledgements_list .col1 {
+  grid-column: 1;
+  text-align: right;
+}
+#main_body_wrapper .content .acknowledgements .acknowledgements_list .col2 {
+  grid-column: 2;
+}
+#main_body_wrapper .content .acknowledgements .acknowledgements_list #c1r1 {
+  grid-row: 1;
+}
+#main_body_wrapper .content .acknowledgements .acknowledgements_list #c1r2 {
+  grid-row: 2;
+}
+#main_body_wrapper .content .acknowledgements .acknowledgements_list #c1r3 {
+  grid-row: 3;
+}
+#main_body_wrapper .content .acknowledgements .acknowledgements_list #c1r4 {
+  grid-row: 4;
+}
+#main_body_wrapper .content .acknowledgements .acknowledgements_list #c2r1 {
+  grid-row: 1;
+}
+#main_body_wrapper .content .acknowledgements .acknowledgements_list #c2r2 {
+  grid-row: 2;
+}
+#main_body_wrapper .content .acknowledgements .acknowledgements_list #c2r3 {
+  grid-row: 3;
+}
+#main_body_wrapper .content .acknowledgements .acknowledgements_list #c2r4 {
+  grid-row: 4;
+}
+#main_body_wrapper .content .references {
+  grid-row: 3;
+  grid-column: 1/span 2;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  #main_body_wrapper {
+    max-width: 100%;
+    height: auto;
+    margin-left: 5%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1%;
+    margin: 0;
+  }
+  #main_body_wrapper a {
+    text-decoration: underline;
+    color: white;
+  }
+}/*# sourceMappingURL=acknowledgements.css.map */

@@ -6,6 +6,14 @@ html {
   border: 0px;
   padding: 0px;
 }
+body nav ul li div,
+html nav ul li div {
+  text-align: center;
+}
+body nav ul li div a,
+html nav ul li div a {
+  text-align: center;
+}
 
 body {
   box-sizing: border-box;
@@ -22,7 +30,7 @@ body {
     padding: 0;
     margin-top: 1%;
     display: grid;
-    grid-template-columns: 5% 20% 20% 20% 20%;
+    grid-template-columns: 5% 15% 15% 15% 15% 15%;
     justify-content: space-evenly;
     align-content: center;
     width: 100%;
@@ -86,7 +94,7 @@ body {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    width: inherit;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 3;
   }

@@ -73,7 +73,6 @@ h2 {
     background: rgba(0, 0, 0, 0.6);
   }
   .title .test {
-    display: -ms-grid;
     display: grid;
     -ms-grid-column: 1fr;
     grid-template-columns: repeat(3, 1fr);
