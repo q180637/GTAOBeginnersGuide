@@ -73,7 +73,9 @@ h2 {
     background: rgba(0, 0, 0, 0.6);
   }
   .title .test {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-column: 1fr;
     grid-column: 1fr;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
@@ -87,17 +89,22 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: none;
+    padding-bottom: none;
   }
   .title .test .show_prices #button_text {
     padding: 0.1em;
   }
-  .title .test #trade_price_list {
+  .title #trade_price_list {
     display: none;
   }
-  .title .test #trade_price_list li {
+  .title #trade_price_list li {
     list-style-type: disc;
     list-style-position: inside;
-    display: none;
   }
 }/*# sourceMappingURL=both_hangar.css.map */
