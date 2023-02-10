@@ -102,6 +102,7 @@ h2 {
   }
   .title #trade_price_list {
     display: none;
+    padding-left: 0;
   }
   .title #trade_price_list li {
     list-style-type: disc;
