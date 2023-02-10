@@ -81,6 +81,7 @@ h2 {
             display: -ms-grid;
             display: grid;
             -ms-grid-column: (1fr);
+            grid-column: (1fr);
             grid-template-columns: repeat(3, 1fr);
             width: 100%;
 
@@ -100,13 +101,13 @@ h2 {
             }
 
             #trade_price_list {
+                display: none;
                 li{
                     list-style-type: disc;
                     list-style-position: inside;
+                    display: none;
                 }
-                display: none;
             }
         }
-
     }
 }

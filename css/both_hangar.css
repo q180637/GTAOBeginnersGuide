@@ -74,7 +74,7 @@ h2 {
   }
   .title .test {
     display: grid;
-    -ms-grid-column: 1fr;
+    grid-column: 1fr;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
   }
@@ -98,5 +98,6 @@ h2 {
   .title .test #trade_price_list li {
     list-style-type: disc;
     list-style-position: inside;
+    display: none;
   }
 }/*# sourceMappingURL=both_hangar.css.map */
