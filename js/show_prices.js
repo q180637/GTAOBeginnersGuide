@@ -10,4 +10,10 @@ function hangar_price_toggle() {
   else {
     x.style.display = "block";
   }
+  var y = document.getElementById("button_text");
+  if (x.style.display === "block" && y.innerHTML === "Show list of trade prices"){
+    y.innerHTML = "Hide list of trade prices";
+  }
+  else{ y.innerHTML = "Show list of trade prices";
+  }
 }

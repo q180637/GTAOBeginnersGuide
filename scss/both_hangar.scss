@@ -81,20 +81,24 @@ h2 {
             display: grid;
             -ms-grid-column: (1fr);
             grid-column: (1fr);
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(1fr);
             width: 100%;
+            div{
+                margin:0;
+                padding:0;
+            }
             .show_prices {
                 text-align: center;
-                background-color: rgba($color: #000000, $alpha: 1);
+                background-color: rgba($color: #000000, $alpha: 0.8);
                 border: none;
                 border-radius: 1em;
                 color: white;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                width:max-content;
-                padding-left: 7.5%;
-                padding-right: 7.5%;
+                width:100%;
+                // padding-left: 7.5%;
+                // padding-right: 7.5%;
                 padding-top: none;
                 padding-bottom: none;
                 #button_text {
@@ -105,6 +109,7 @@ h2 {
         #trade_price_list {
             display: none;
             padding-left: 0;
+            line-height: 2em;
             li{
                 list-style-type: disc;
                 list-style-position: inside;
