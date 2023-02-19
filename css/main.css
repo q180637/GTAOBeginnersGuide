@@ -35,6 +35,7 @@ body {
     align-content: center;
     width: 100%;
     height: auto;
+    overflow: none;
   }
   #desktop li {
     list-style: none;
@@ -73,7 +74,7 @@ body {
     background-color: grey;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 1.5vw;
     border: none;
     cursor: pointer;
   }
@@ -166,6 +167,7 @@ body {
   }
   .mobile header {
     grid-column: 2;
+    font-size: 5vw;
   }
   .mobile a.icon {
     font-size: 10vw;
@@ -360,7 +362,7 @@ body {
     background-color: grey;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 1vw;
     border: none;
     cursor: pointer;
   }

@@ -42,6 +42,7 @@ body {
             align-content: center;
             width: 100%;
             height: auto;
+            overflow: none;
         }
 
         li {
@@ -88,7 +89,7 @@ body {
         background-color: grey;
         color: white;
         padding: 16px;
-        font-size: 16px;
+        font-size: 1.5vw;
         border: none;
         cursor: pointer;
     }
@@ -198,6 +199,7 @@ body {
 
         header{
             grid-column: 2;
+            font-size: 5vw;
         }
 
         a.icon{
@@ -428,7 +430,7 @@ body {
         background-color: grey;
         color: white;
         padding: 16px;
-        font-size: 16px;
+        font-size: 1vw;
         border: none;
         cursor: pointer;
     }
