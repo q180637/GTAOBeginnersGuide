@@ -27,7 +27,7 @@ body {
     font-family: Oswald;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) and (max-width: 1200px) {
 
     /*nav bar full alignment*/
     #desktop {
@@ -47,7 +47,7 @@ body {
         li {
             list-style: none;
             width: 100%;
-            height: auto;
+            height: 100%;
             padding: 0;
             margin: 0;
         }
@@ -57,7 +57,7 @@ body {
             height: auto;
         }
 
-        button {
+        .dropdown_button {
             text-decoration: none;
             text-align: center;
             display: inline-block;
@@ -68,7 +68,7 @@ body {
             font-family: 'Oswald', sans-serif;
         }
 
-        button:hover {
+        .dropdown_button:hover {
             background-color: darken($color: rgb(128, 128, 128), $amount: 10);
         }
     }
@@ -169,7 +169,7 @@ body {
     /*nav bar full alignment*/
     .mobile {
         display: grid;
-        grid-template-columns: 25% 75%;
+        grid-template-columns: 25% 50% 25%;
         justify-content: center;
 
         .logo {
@@ -196,9 +196,26 @@ body {
             grid-column: 1;
         }
 
+        header{
+            grid-column: 2;
+        }
+
+        a.icon{
+            font-size: 10vw;
+            background: black;
+            grid-column: 3;
+            top: 0;
+            right: 0;
+            padding-left: 10vw;
+            color: white;
+            :hover{
+                color:white;
+            }
+        }
+
         #mobile_links {
             display: none;
-            grid-column: 1 / span 2;
+            grid-column: 1 / span 3;
         }
 
         ul {
@@ -347,5 +364,142 @@ body {
         font-weight: 400;
         line-height: 1.5em;
         font-size: 1em;
+    }
+}
+
+@media screen and (min-width:1200px ) {
+
+    /*nav bar full alignment*/
+    #desktop {
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-top: 1%;
+            display: grid;
+            grid-template-columns: 5% 15% 15% 15% 15% 15%;
+            justify-content: space-evenly;
+            align-content: center;
+            width: 100%;
+            height: auto;
+        }
+
+        li {
+            list-style: none;
+            width: 100%;
+            height: auto;
+            padding: 0;
+            margin: 0;
+        }
+
+        img {
+            max-width: 80%;
+            height: auto;
+        }
+
+        button {
+            text-decoration: none;
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            color: white;
+            grid-row: 1;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        button:hover {
+            background-color: darken($color: rgb(128, 128, 128), $amount: 10);
+        }
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    /*nav dropdown container for positioning*/
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /*button for the dropdown*/
+    .dropdown_button {
+        background-color: grey;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown_button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .dropdown_button a:visited {
+        text-decoration: none;
+        color: white;
+    }
+
+    .dropdown_button a:active {
+        text-decoration: none;
+        color: white;
+    }
+
+    /*container dropdown items*/
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        //min-width: 160px;
+        width: inherit;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 3;
+    }
+
+    /*dropdown links*/
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /*dropdown links rollover*/
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    /*dropdown on button rollover*/
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a:active {
+        text-decoration: none;
+        color: white;
+    }
+
+    .dropdown-content a:visited {
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+
+    header {
+        text-align: center;
+        padding: 10px;
+        font-size: 28px;
+    }
+
+    h1 {
+        padding: 0;
+        margin: 0;
+        opacity: 100%;
     }
 }
